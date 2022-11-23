@@ -1,4 +1,4 @@
-const db = require('../db')
+/*const db = require('../db')
 
 class EventController {
     // создаёт мероприятие
@@ -43,4 +43,4 @@ class EventController {
     }
 }
 
-module.exports = new EventController()
+module.exports = new EventController() */

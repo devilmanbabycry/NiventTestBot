@@ -1,4 +1,4 @@
-const Router = require('express')
+/*const Router = require('express')
 const router = new Router()
 const eventController = require('../controller/event.controller')
 
@@ -12,4 +12,4 @@ router.delete('/event/:id', eventController.deleteEvent)
 
 
 
-module.exports = router
+module.exports = router */
