@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
-const eventRouter = require('./routes/event.routes')
+//const eventRouter = require('./routes/event.routes')
 //const db = require("./db");
 
 const token = '5727297877:AAHXOLPsFjTNl80Dmmqz7PONLVUQ6e2dXKQ';
@@ -93,6 +93,7 @@ bot.on('message', async (msg) => {
     } */
 });
 
+/*
 app.post('/web-data', async (req, res) => {
     const events = await db.query('SELECT * FROM event');
     const queryId = req.body;
@@ -108,7 +109,7 @@ app.post('/web-data', async (req, res) => {
         console.log(e)
     }
 
-})
+}) */
 
 
 app.listen(PORT, () => console.log('Cервер работает, порт ' + PORT));
