@@ -16,7 +16,7 @@ const bot = new TelegramBot(token, {polling: true});
 app.use(express.json());
 app.use(cors());
 
-app.use('/test', eventRouter)
+//app.use('/test', eventRouter)
 
 bot.setMyCommands([
     {command: '/start', description: 'Начало работы бота'},
